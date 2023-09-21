@@ -55,7 +55,7 @@ connect to the broker, only once this function has returned successfully can any
 | --- | --- | --- | ---|
 | userid | ```string``` | False | user credentials |
 | password | ```string```| False | password encrypted |
-| twoFA | ```string``` | False | dob/pan |
+| twoFA | ```string``` | False | OTP or TOTP |
 | vendor_code | ```string``` | False | vendor code shared  |
 | api_secret | ```string``` | False | your secret   |
 | imei | ```string``` | False | imei identification |
