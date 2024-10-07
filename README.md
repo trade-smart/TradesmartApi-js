@@ -749,11 +749,11 @@ send a list of instruments to stop watch
 ### Login via OTP (One-Time Password)
 
 1. **Generate OTP**
-   - Follow the instructions in the [Generate OTP script](https://github.com/trade-smart/TradesmartApi-Py/blob/main/tests/test_forgotpassword_OTP.py).
+   - Follow the instructions in the [Generate OTP script](https://github.com/trade-smart/TradesmartApi-js/blob/master/request_example.js#L24).
 
 2. **Use OTP for Login**
    - Use the generated OTP as `factor2` in the login process.
-   - Refer to the [Login script](https://github.com/trade-smart/TradesmartApi-Py/blob/main/test_api.py) for implementation details.
+   - Refer to the [Login script](https://github.com/trade-smart/TradesmartApi-js/blob/master/request_example.js#L8) for implementation details.
 
 
 First configure the endpoints in the api_helper constructor. 
